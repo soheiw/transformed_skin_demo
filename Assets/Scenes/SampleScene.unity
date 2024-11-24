@@ -4384,7 +4384,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &271128521
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10551,9 +10551,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Rotation/
-  _dataSource: {fileID: 0}
-  _propertyName: 
+  _oscAddress: /TFSSlime/Rotation/RHT3
+  _dataSource: {fileID: 287697549}
+  _propertyName: localEulerAngles
   _keepSending: 1
 --- !u!114 &527958766
 MonoBehaviour:
@@ -10568,9 +10568,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Position/
-  _dataSource: {fileID: 0}
-  _propertyName: 
+  _oscAddress: /TFSSlime/Position/RHT3
+  _dataSource: {fileID: 287697549}
+  _propertyName: localPosition
   _keepSending: 1
 --- !u!1 &535889066
 GameObject:
@@ -11019,9 +11019,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Rotation/
-  _dataSource: {fileID: 0}
-  _propertyName: 
+  _oscAddress: /TFSSlime/Rotation/RHT1
+  _dataSource: {fileID: 287697547}
+  _propertyName: localEulerAngles
   _keepSending: 1
 --- !u!114 &552898211
 MonoBehaviour:
@@ -11036,9 +11036,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Position/
-  _dataSource: {fileID: 0}
-  _propertyName: 
+  _oscAddress: /TFSSlime/Position/RHT1
+  _dataSource: {fileID: 287697547}
+  _propertyName: localPosition
   _keepSending: 1
 --- !u!114 &561311365
 MonoBehaviour:
@@ -15027,9 +15027,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Rotation/
-  _dataSource: {fileID: 0}
-  _propertyName: 
+  _oscAddress: /TFSSlime/Rotation/RHR2
+  _dataSource: {fileID: 287697554}
+  _propertyName: localEulerAngles
   _keepSending: 1
 --- !u!114 &776339139
 MonoBehaviour:
@@ -15044,9 +15044,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Position/
-  _dataSource: {fileID: 0}
-  _propertyName: 
+  _oscAddress: /TFSSlime/Position/RHR2
+  _dataSource: {fileID: 287697554}
+  _propertyName: localPosition
   _keepSending: 1
 --- !u!1 &781044714
 GameObject:
@@ -15382,9 +15382,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Rotation/
-  _dataSource: {fileID: 0}
-  _propertyName: 
+  _oscAddress: /TFSSlime/Rotation/RHP4
+  _dataSource: {fileID: 839073282}
+  _propertyName: localEulerAngles
   _keepSending: 1
 --- !u!114 &839073281
 MonoBehaviour:
@@ -15399,10 +15399,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Position/
-  _dataSource: {fileID: 0}
-  _propertyName: 
+  _oscAddress: /TFSSlime/Position/RHP4
+  _dataSource: {fileID: 839073282}
+  _propertyName: localPosition
   _keepSending: 1
+--- !u!4 &839073282 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8832195961276668019, guid: e2f4af790fb40ab429d46bd7c4f72117, type: 3}
+  m_PrefabInstance: {fileID: 287697537}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &839285671
 GameObject:
   m_ObjectHideFlags: 0
@@ -16841,6 +16846,63 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef2b87818a56064b926871454f01541, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1001 &894969161
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1108419882308158592, guid: a912065df8e0b4b4385507810e31c60d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1108419882308158592, guid: a912065df8e0b4b4385507810e31c60d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1108419882308158592, guid: a912065df8e0b4b4385507810e31c60d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1108419882308158592, guid: a912065df8e0b4b4385507810e31c60d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1108419882308158592, guid: a912065df8e0b4b4385507810e31c60d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1108419882308158592, guid: a912065df8e0b4b4385507810e31c60d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1108419882308158592, guid: a912065df8e0b4b4385507810e31c60d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1108419882308158592, guid: a912065df8e0b4b4385507810e31c60d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1108419882308158592, guid: a912065df8e0b4b4385507810e31c60d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1108419882308158592, guid: a912065df8e0b4b4385507810e31c60d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6600396371627242169, guid: a912065df8e0b4b4385507810e31c60d, type: 3}
+      propertyPath: m_Name
+      value: LargeRoom
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a912065df8e0b4b4385507810e31c60d, type: 3}
 --- !u!114 &899446496
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19664,9 +19726,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Rotation/
-  _dataSource: {fileID: 0}
-  _propertyName: 
+  _oscAddress: /TFSSlime/Rotation/RHM4
+  _dataSource: {fileID: 1047802779}
+  _propertyName: localEulerAngles
   _keepSending: 1
 --- !u!114 &1047802778
 MonoBehaviour:
@@ -19681,10 +19743,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Position/
-  _dataSource: {fileID: 0}
-  _propertyName: 
+  _oscAddress: /TFSSlime/Position/RHM4
+  _dataSource: {fileID: 1047802779}
+  _propertyName: localPosition
   _keepSending: 1
+--- !u!4 &1047802779 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4731265374944853468, guid: e2f4af790fb40ab429d46bd7c4f72117, type: 3}
+  m_PrefabInstance: {fileID: 287697537}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1050048242
 GameObject:
   m_ObjectHideFlags: 0
@@ -22517,9 +22584,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Rotation/
-  _dataSource: {fileID: 0}
-  _propertyName: 
+  _oscAddress: /TFSSlime/Rotation/RHT2
+  _dataSource: {fileID: 287697548}
+  _propertyName: localEulerAngles
   _keepSending: 1
 --- !u!114 &1189931002
 MonoBehaviour:
@@ -22534,9 +22601,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Position/
-  _dataSource: {fileID: 0}
-  _propertyName: 
+  _oscAddress: /TFSSlime/Position/RHT2
+  _dataSource: {fileID: 287697548}
+  _propertyName: localPosition
   _keepSending: 1
 --- !u!114 &1192583756
 MonoBehaviour:
@@ -23264,9 +23331,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Rotation/
-  _dataSource: {fileID: 0}
-  _propertyName: 
+  _oscAddress: /TFSSlime/Rotation/RHT4
+  _dataSource: {fileID: 1232092630}
+  _propertyName: localEulerAngles
   _keepSending: 1
 --- !u!114 &1232092629
 MonoBehaviour:
@@ -23281,10 +23348,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Position/
-  _dataSource: {fileID: 0}
-  _propertyName: 
+  _oscAddress: /TFSSlime/Position/RHT4
+  _dataSource: {fileID: 1232092630}
+  _propertyName: localPosition
   _keepSending: 1
+--- !u!4 &1232092630 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -597670272443537037, guid: e2f4af790fb40ab429d46bd7c4f72117, type: 3}
+  m_PrefabInstance: {fileID: 287697537}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1233816266
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25769,9 +25841,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Rotation/
-  _dataSource: {fileID: 0}
-  _propertyName: 
+  _oscAddress: /TFSSlime/Rotation/RHR4
+  _dataSource: {fileID: 1389338094}
+  _propertyName: localEulerAngles
   _keepSending: 1
 --- !u!114 &1389338093
 MonoBehaviour:
@@ -25786,10 +25858,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Position/
-  _dataSource: {fileID: 0}
-  _propertyName: 
+  _oscAddress: /TFSSlime/Position/RHR4
+  _dataSource: {fileID: 1389338094}
+  _propertyName: localPosition
   _keepSending: 1
+--- !u!4 &1389338094 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -1775126338366397726, guid: e2f4af790fb40ab429d46bd7c4f72117, type: 3}
+  m_PrefabInstance: {fileID: 287697537}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1397797228
 GameObject:
   m_ObjectHideFlags: 0
@@ -26302,9 +26379,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Rotation/
-  _dataSource: {fileID: 0}
-  _propertyName: 
+  _oscAddress: /TFSSlime/Rotation/RHP2
+  _dataSource: {fileID: 287697560}
+  _propertyName: localEulerAngles
   _keepSending: 1
 --- !u!114 &1441981415
 MonoBehaviour:
@@ -26319,9 +26396,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Position/
-  _dataSource: {fileID: 0}
-  _propertyName: 
+  _oscAddress: /TFSSlime/Position/RHP2
+  _dataSource: {fileID: 287697560}
+  _propertyName: localPosition
   _keepSending: 1
 --- !u!114 &1446473206
 MonoBehaviour:
@@ -28867,9 +28944,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Rotation/
-  _dataSource: {fileID: 0}
-  _propertyName: 
+  _oscAddress: /TFSSlime/Rotation/RHP3
+  _dataSource: {fileID: 287697561}
+  _propertyName: localEulerAngles
   _keepSending: 1
 --- !u!114 &1626193602
 MonoBehaviour:
@@ -28884,9 +28961,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Position/
-  _dataSource: {fileID: 0}
-  _propertyName: 
+  _oscAddress: /TFSSlime/Position/RHP3
+  _dataSource: {fileID: 287697561}
+  _propertyName: localPosition
   _keepSending: 1
 --- !u!1 &1631960224
 GameObject:
@@ -29564,9 +29641,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Rotation/
-  _dataSource: {fileID: 0}
-  _propertyName: 
+  _oscAddress: /TFSSlime/Rotation/RHM3
+  _dataSource: {fileID: 287697567}
+  _propertyName: localEulerAngles
   _keepSending: 1
 --- !u!114 &1673449615
 MonoBehaviour:
@@ -29581,9 +29658,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Position/
-  _dataSource: {fileID: 0}
-  _propertyName: 
+  _oscAddress: /TFSSlime/Position/RHM3
+  _dataSource: {fileID: 287697567}
+  _propertyName: localPosition
   _keepSending: 1
 --- !u!1 &1674408092
 GameObject:
@@ -31245,9 +31322,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Rotation/
-  _dataSource: {fileID: 0}
-  _propertyName: 
+  _oscAddress: /TFSSlime/Rotation/RHI3
+  _dataSource: {fileID: 287697573}
+  _propertyName: localEulerAngles
   _keepSending: 1
 --- !u!114 &1795315337
 MonoBehaviour:
@@ -31262,9 +31339,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Position/
-  _dataSource: {fileID: 0}
-  _propertyName: 
+  _oscAddress: /TFSSlime/Position/RHI3
+  _dataSource: {fileID: 287697573}
+  _propertyName: localPosition
   _keepSending: 1
 --- !u!1 &1800855273
 GameObject:
@@ -32564,9 +32641,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Rotation/
-  _dataSource: {fileID: 0}
-  _propertyName: 
+  _oscAddress: /TFSSlime/Rotation/RHR3
+  _dataSource: {fileID: 287697555}
+  _propertyName: localEulerAngles
   _keepSending: 1
 --- !u!114 &1903553891
 MonoBehaviour:
@@ -32581,9 +32658,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Position/
-  _dataSource: {fileID: 0}
-  _propertyName: 
+  _oscAddress: /TFSSlime/Position/RHR3
+  _dataSource: {fileID: 287697555}
+  _propertyName: localPosition
   _keepSending: 1
 --- !u!1 &1924493371
 GameObject:
@@ -33628,9 +33705,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Rotation/
-  _dataSource: {fileID: 0}
-  _propertyName: 
+  _oscAddress: /TFSSlime/Rotation/RHI4
+  _dataSource: {fileID: 1990330154}
+  _propertyName: localEulerAngles
   _keepSending: 1
 --- !u!114 &1990330153
 MonoBehaviour:
@@ -33645,10 +33722,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Position/
-  _dataSource: {fileID: 0}
-  _propertyName: 
+  _oscAddress: /TFSSlime/Position/RHI4
+  _dataSource: {fileID: 1990330154}
+  _propertyName: localPosition
   _keepSending: 1
+--- !u!4 &1990330154 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -1812608252217302482, guid: e2f4af790fb40ab429d46bd7c4f72117, type: 3}
+  m_PrefabInstance: {fileID: 287697537}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1991886957
 GameObject:
   m_ObjectHideFlags: 0
@@ -34425,9 +34507,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Rotation/
-  _dataSource: {fileID: 0}
-  _propertyName: 
+  _oscAddress: /TFSSlime/Rotation/RHM2
+  _dataSource: {fileID: 287697566}
+  _propertyName: localEulerAngles
   _keepSending: 1
 --- !u!114 &2019493710
 MonoBehaviour:
@@ -34442,9 +34524,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Position/
-  _dataSource: {fileID: 0}
-  _propertyName: 
+  _oscAddress: /TFSSlime/Position/RHM2
+  _dataSource: {fileID: 287697566}
+  _propertyName: localPosition
   _keepSending: 1
 --- !u!1 &2028300996 stripped
 GameObject:
@@ -34636,7 +34718,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Position/
+  _oscAddress: /TFSSlime/Position/RHP4
   _dataType: 5
   _event:
     m_PersistentCalls:
@@ -36370,9 +36452,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Rotation/
-  _dataSource: {fileID: 0}
-  _propertyName: 
+  _oscAddress: /TFSSlime/Rotation/RHI2
+  _dataSource: {fileID: 287697572}
+  _propertyName: localEulerAngles
   _keepSending: 1
 --- !u!114 &2125318612
 MonoBehaviour:
@@ -36387,9 +36469,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Position/
-  _dataSource: {fileID: 0}
-  _propertyName: 
+  _oscAddress: /TFSSlime/Position/RHI2
+  _dataSource: {fileID: 287697572}
+  _propertyName: localPosition
   _keepSending: 1
 --- !u!114 &2126330635
 MonoBehaviour:
@@ -36726,9 +36808,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Rotation/
-  _dataSource: {fileID: 0}
-  _propertyName: 
+  _oscAddress: /TFSSlime/Rotation/RHI1
+  _dataSource: {fileID: 287697571}
+  _propertyName: localEulerAngles
   _keepSending: 1
 --- !u!114 &2127086638
 MonoBehaviour:
@@ -36743,9 +36825,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Position/
-  _dataSource: {fileID: 0}
-  _propertyName: 
+  _oscAddress: /TFSSlime/Position/RHI1
+  _dataSource: {fileID: 287697571}
+  _propertyName: localPosition
   _keepSending: 1
 --- !u!1 &2128889514
 GameObject:
@@ -36991,3 +37073,4 @@ SceneRoots:
   - {fileID: 287697537}
   - {fileID: 734338751}
   - {fileID: 927767671}
+  - {fileID: 894969161}
