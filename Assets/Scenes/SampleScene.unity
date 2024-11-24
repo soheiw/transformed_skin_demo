@@ -568,100 +568,6 @@ MonoBehaviour:
     modifyNameEnabled: 0
   modified: 0
   modifiedChildren: 0
---- !u!1 &25252924
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 25252925}
-  - component: {fileID: 25252928}
-  - component: {fileID: 25252927}
-  - component: {fileID: 25252926}
-  m_Layer: 0
-  m_Name: Coll.mixamorig1:LeftArm (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &25252925
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 25252924}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.015, y: 0.262, z: 0.011}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 287697586}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!135 &25252926
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 25252924}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Radius: 0.05048212
-  m_Center: {x: 0.017465478, y: 0.0058642384, z: -0.0037434772}
---- !u!54 &25252927
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 25252924}
-  serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &25252928
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 25252924}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9ef2b87818a56064b926871454f01541, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &34400708
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1700,100 +1606,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef2b87818a56064b926871454f01541, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &113205231
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 113205232}
-  - component: {fileID: 113205235}
-  - component: {fileID: 113205234}
-  - component: {fileID: 113205233}
-  m_Layer: 0
-  m_Name: Coll.mixamorig1:LeftHand (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &113205232
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 113205231}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.009, y: 0.103, z: 0.002}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 734338807}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!135 &113205233
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 113205231}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Radius: 0.01330309
-  m_Center: {x: 0.0030542426, y: 0.0026097195, z: 0.002240207}
---- !u!54 &113205234
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 113205231}
-  serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &113205235
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 113205231}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9ef2b87818a56064b926871454f01541, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &120113673
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2673,6 +2485,124 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef2b87818a56064b926871454f01541, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &184271554 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -1745955277750808218, guid: e2f4af790fb40ab429d46bd7c4f72117, type: 3}
+  m_PrefabInstance: {fileID: 734338751}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &184271555 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -7472780575644085350, guid: e2f4af790fb40ab429d46bd7c4f72117, type: 3}
+  m_PrefabInstance: {fileID: 734338751}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &184271556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 184271554}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51f8f979447c54247bcba0d5441e6081, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
+  _oscAddress: /TFSSlime/Rotation/LTE
+  _dataType: 5
+  _event:
+    m_PersistentCalls:
+      m_Calls: []
+  _intEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _floatEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _vector2Event:
+    m_PersistentCalls:
+      m_Calls: []
+  _vector3Event:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 184271555}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localEulerAngles
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  _vector4Event:
+    m_PersistentCalls:
+      m_Calls: []
+  _vector2IntEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _vector3IntEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _stringEvent:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &184271557
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 184271554}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51f8f979447c54247bcba0d5441e6081, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
+  _oscAddress: /TFSSlime/Position/LTE
+  _dataType: 5
+  _event:
+    m_PersistentCalls:
+      m_Calls: []
+  _intEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _floatEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _vector2Event:
+    m_PersistentCalls:
+      m_Calls: []
+  _vector3Event:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 184271555}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localPosition
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  _vector4Event:
+    m_PersistentCalls:
+      m_Calls: []
+  _vector2IntEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _vector3IntEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _stringEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &185880971
 GameObject:
   m_ObjectHideFlags: 0
@@ -3876,7 +3806,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Rotation/
+  _oscAddress: /TFSSlime/Rotation/Head
   _dataType: 5
   _event:
     m_PersistentCalls:
@@ -3893,13 +3823,13 @@ MonoBehaviour:
   _vector3Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 734338845}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localEulerAngles
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -3930,7 +3860,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Position/
+  _oscAddress: /TFSSlime/Position/Head
   _dataType: 5
   _event:
     m_PersistentCalls:
@@ -3947,13 +3877,13 @@ MonoBehaviour:
   _vector3Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 734338845}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localPosition
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -5072,24 +5002,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -1680883931492820501, guid: e2f4af790fb40ab429d46bd7c4f72117, type: 3}
       insertIndex: -1
       addedObject: {fileID: 968684016}
-    - targetCorrespondingSourceObject: {fileID: -1680883931492820501, guid: e2f4af790fb40ab429d46bd7c4f72117, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 25252925}
     - targetCorrespondingSourceObject: {fileID: 1510652388387417717, guid: e2f4af790fb40ab429d46bd7c4f72117, type: 3}
       insertIndex: -1
       addedObject: {fileID: 295223333}
-    - targetCorrespondingSourceObject: {fileID: 1510652388387417717, guid: e2f4af790fb40ab429d46bd7c4f72117, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1291547878}
     - targetCorrespondingSourceObject: {fileID: -1444648241424511210, guid: e2f4af790fb40ab429d46bd7c4f72117, type: 3}
       insertIndex: -1
       addedObject: {fileID: 249382609}
-    - targetCorrespondingSourceObject: {fileID: -1444648241424511210, guid: e2f4af790fb40ab429d46bd7c4f72117, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2078325560}
-    - targetCorrespondingSourceObject: {fileID: -1444648241424511210, guid: e2f4af790fb40ab429d46bd7c4f72117, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1271301611}
     - targetCorrespondingSourceObject: {fileID: 1415099163316650759, guid: e2f4af790fb40ab429d46bd7c4f72117, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2048708143}
@@ -5559,6 +5477,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4495723111191367625, guid: e2f4af790fb40ab429d46bd7c4f72117, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1356751032}
+    - targetCorrespondingSourceObject: {fileID: -6296862554922033453, guid: e2f4af790fb40ab429d46bd7c4f72117, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1619941044}
+    - targetCorrespondingSourceObject: {fileID: -6296862554922033453, guid: e2f4af790fb40ab429d46bd7c4f72117, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1619941043}
     - targetCorrespondingSourceObject: {fileID: 7470372646210725352, guid: e2f4af790fb40ab429d46bd7c4f72117, type: 3}
       insertIndex: -1
       addedObject: {fileID: 345836448}
@@ -6456,7 +6380,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 287697642}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ed3f4b8446e3e43e5be1835a4580a167, type: 3}
   m_Name: 
@@ -7098,7 +7022,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Rotation/
+  _oscAddress: /TFSSlime/Rotation/RHI4
   _dataType: 5
   _event:
     m_PersistentCalls:
@@ -7115,13 +7039,13 @@ MonoBehaviour:
   _vector3Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 319379838}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localEulerAngles
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -7152,7 +7076,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Position/
+  _oscAddress: /TFSSlime/Position/RHI4
   _dataType: 5
   _event:
     m_PersistentCalls:
@@ -7169,13 +7093,13 @@ MonoBehaviour:
   _vector3Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 319379838}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localPosition
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -7193,6 +7117,11 @@ MonoBehaviour:
   _stringEvent:
     m_PersistentCalls:
       m_Calls: []
+--- !u!4 &319379838 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -1812608252217302482, guid: e2f4af790fb40ab429d46bd7c4f72117, type: 3}
+  m_PrefabInstance: {fileID: 734338751}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &324482567
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7689,9 +7618,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Rotation/
-  _dataSource: {fileID: 0}
-  _propertyName: 
+  _oscAddress: /TFSSlime/Rotation/RS
+  _dataSource: {fileID: 287697543}
+  _propertyName: localEulerAngles
   _keepSending: 1
 --- !u!114 &345836450
 MonoBehaviour:
@@ -7706,9 +7635,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Position/
-  _dataSource: {fileID: 0}
-  _propertyName: 
+  _oscAddress: /TFSSlime/Position/RS
+  _dataSource: {fileID: 287697543}
+  _propertyName: localPosition
   _keepSending: 1
 --- !u!1 &351335276
 GameObject:
@@ -8462,100 +8391,6 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 392900384}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9ef2b87818a56064b926871454f01541, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!1 &393074014
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 393074015}
-  - component: {fileID: 393074018}
-  - component: {fileID: 393074017}
-  - component: {fileID: 393074016}
-  m_Layer: 0
-  m_Name: Coll.mixamorig1:LeftForeArm (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &393074015
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 393074014}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.001, y: 0.216, z: 0.001}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 734338839}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!135 &393074016
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 393074014}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Radius: 0.02606703
-  m_Center: {x: 0.00032471493, y: -0.006845217, z: 0.0013773739}
---- !u!54 &393074017
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 393074014}
-  serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &393074018
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 393074014}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9ef2b87818a56064b926871454f01541, type: 3}
@@ -9508,7 +9343,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Rotation/
+  _oscAddress: /TFSSlime/Rotation/LS
   _dataType: 5
   _event:
     m_PersistentCalls:
@@ -9525,13 +9360,13 @@ MonoBehaviour:
   _vector3Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 734338843}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localEulerAngles
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -9562,7 +9397,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Position/
+  _oscAddress: /TFSSlime/Position/LS
   _dataType: 5
   _event:
     m_PersistentCalls:
@@ -9579,13 +9414,13 @@ MonoBehaviour:
   _vector3Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 734338843}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localPosition
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -9710,7 +9545,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Rotation/
+  _oscAddress: /TFSSlime/Rotation/RUL
   _dataType: 5
   _event:
     m_PersistentCalls:
@@ -9727,13 +9562,13 @@ MonoBehaviour:
   _vector3Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 734338759}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localEulerAngles
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -9764,7 +9599,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Position/
+  _oscAddress: /TFSSlime/Position/RUL
   _dataType: 5
   _event:
     m_PersistentCalls:
@@ -9781,13 +9616,13 @@ MonoBehaviour:
   _vector3Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 734338759}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localPosition
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -9912,7 +9747,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Rotation/
+  _oscAddress: /TFSSlime/Rotation/LHM2
   _dataType: 5
   _event:
     m_PersistentCalls:
@@ -9929,13 +9764,13 @@ MonoBehaviour:
   _vector3Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 734338827}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localEulerAngles
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -9966,7 +9801,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Position/
+  _oscAddress: /TFSSlime/Position/LHM2
   _dataType: 5
   _event:
     m_PersistentCalls:
@@ -9983,13 +9818,13 @@ MonoBehaviour:
   _vector3Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 734338827}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localPosition
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -10501,7 +10336,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Rotation/
+  _oscAddress: /TFSSlime/Rotation/RHI3
   _dataType: 5
   _event:
     m_PersistentCalls:
@@ -10518,13 +10353,13 @@ MonoBehaviour:
   _vector3Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 734338796}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localEulerAngles
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -10555,7 +10390,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Position/
+  _oscAddress: /TFSSlime/Position/RHI3
   _dataType: 5
   _event:
     m_PersistentCalls:
@@ -10572,13 +10407,13 @@ MonoBehaviour:
   _vector3Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 734338796}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localPosition
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -11325,9 +11160,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Rotation/
-  _dataSource: {fileID: 0}
-  _propertyName: 
+  _oscAddress: /TFSSlime/Rotation/LHT2
+  _dataSource: {fileID: 287697590}
+  _propertyName: localEulerAngles
   _keepSending: 1
 --- !u!114 &561311367
 MonoBehaviour:
@@ -11342,9 +11177,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Position/
-  _dataSource: {fileID: 0}
-  _propertyName: 
+  _oscAddress: /TFSSlime/Position/LHT2
+  _dataSource: {fileID: 287697590}
+  _propertyName: localPosition
   _keepSending: 1
 --- !u!114 &568932837
 MonoBehaviour:
@@ -12217,9 +12052,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Rotation/
-  _dataSource: {fileID: 0}
-  _propertyName: 
+  _oscAddress: /TFSSlime/Rotation/LHR3
+  _dataSource: {fileID: 287697597}
+  _propertyName: localEulerAngles
   _keepSending: 1
 --- !u!114 &683741326
 MonoBehaviour:
@@ -12234,9 +12069,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Position/
-  _dataSource: {fileID: 0}
-  _propertyName: 
+  _oscAddress: /TFSSlime/Position/LHR3
+  _dataSource: {fileID: 287697597}
+  _propertyName: localPosition
   _keepSending: 1
 --- !u!1 &700685885
 GameObject:
@@ -12831,24 +12666,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -1680883931492820501, guid: e2f4af790fb40ab429d46bd7c4f72117, type: 3}
       insertIndex: -1
       addedObject: {fileID: 538863928}
-    - targetCorrespondingSourceObject: {fileID: -1680883931492820501, guid: e2f4af790fb40ab429d46bd7c4f72117, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1633465475}
     - targetCorrespondingSourceObject: {fileID: 1510652388387417717, guid: e2f4af790fb40ab429d46bd7c4f72117, type: 3}
       insertIndex: -1
       addedObject: {fileID: 898354}
-    - targetCorrespondingSourceObject: {fileID: 1510652388387417717, guid: e2f4af790fb40ab429d46bd7c4f72117, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 393074015}
     - targetCorrespondingSourceObject: {fileID: -1444648241424511210, guid: e2f4af790fb40ab429d46bd7c4f72117, type: 3}
       insertIndex: -1
       addedObject: {fileID: 391149256}
-    - targetCorrespondingSourceObject: {fileID: -1444648241424511210, guid: e2f4af790fb40ab429d46bd7c4f72117, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 113205232}
-    - targetCorrespondingSourceObject: {fileID: -1444648241424511210, guid: e2f4af790fb40ab429d46bd7c4f72117, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1640107034}
     - targetCorrespondingSourceObject: {fileID: 1415099163316650759, guid: e2f4af790fb40ab429d46bd7c4f72117, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1780464904}
@@ -13012,6 +12835,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -1372478435321823698, guid: e2f4af790fb40ab429d46bd7c4f72117, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2085575439}
+    - targetCorrespondingSourceObject: {fileID: -1745955277750808218, guid: e2f4af790fb40ab429d46bd7c4f72117, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 184271557}
+    - targetCorrespondingSourceObject: {fileID: -1745955277750808218, guid: e2f4af790fb40ab429d46bd7c4f72117, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 184271556}
     - targetCorrespondingSourceObject: {fileID: -4402405717547116215, guid: e2f4af790fb40ab429d46bd7c4f72117, type: 3}
       insertIndex: -1
       addedObject: {fileID: 716313550}
@@ -13048,6 +12877,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 8667086787320500357, guid: e2f4af790fb40ab429d46bd7c4f72117, type: 3}
       insertIndex: -1
       addedObject: {fileID: 899446497}
+    - targetCorrespondingSourceObject: {fileID: -6241423094453666866, guid: e2f4af790fb40ab429d46bd7c4f72117, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1417366979}
+    - targetCorrespondingSourceObject: {fileID: -6241423094453666866, guid: e2f4af790fb40ab429d46bd7c4f72117, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1417366978}
     - targetCorrespondingSourceObject: {fileID: -8825237598274801784, guid: e2f4af790fb40ab429d46bd7c4f72117, type: 3}
       insertIndex: -1
       addedObject: {fileID: 458328833}
@@ -14029,7 +13864,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Rotation/
+  _oscAddress: /TFSSlime/Rotation/S1
   _dataType: 5
   _event:
     m_PersistentCalls:
@@ -14046,13 +13881,13 @@ MonoBehaviour:
   _vector3Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 734338851}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localEulerAngles
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -14083,7 +13918,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Position/
+  _oscAddress: /TFSSlime/Position/S1
   _dataType: 5
   _event:
     m_PersistentCalls:
@@ -14100,13 +13935,13 @@ MonoBehaviour:
   _vector3Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 734338851}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localPosition
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -14137,7 +13972,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Rotation/
+  _oscAddress: /TFSSlime/Rotation/S
   _dataType: 5
   _event:
     m_PersistentCalls:
@@ -14154,13 +13989,13 @@ MonoBehaviour:
   _vector3Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 734338853}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localEulerAngles
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -14191,7 +14026,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Position/
+  _oscAddress: /TFSSlime/Position/S
   _dataType: 5
   _event:
     m_PersistentCalls:
@@ -14208,13 +14043,13 @@ MonoBehaviour:
   _vector3Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 734338853}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localPosition
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -14613,9 +14448,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Rotation/
-  _dataSource: {fileID: 0}
-  _propertyName: 
+  _oscAddress: /TFSSlime/Rotation/RA
+  _dataSource: {fileID: 287697544}
+  _propertyName: localEulerAngles
   _keepSending: 1
 --- !u!114 &743195555
 MonoBehaviour:
@@ -14630,9 +14465,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Position/
-  _dataSource: {fileID: 0}
-  _propertyName: 
+  _oscAddress: /TFSSlime/Position/RA
+  _dataSource: {fileID: 287697544}
+  _propertyName: localPosition
   _keepSending: 1
 --- !u!114 &746839747
 MonoBehaviour:
@@ -14754,7 +14589,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Rotation/lA
+  _oscAddress: /TFSSlime/Rotation/LA
   _dataSource: {fileID: 287697586}
   _propertyName: localEulerAngles
   _keepSending: 1
@@ -15052,8 +14887,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
   _oscAddress: /TFSSlime/Rotation/LHI3
-  _dataSource: {fileID: 0}
-  _propertyName: 
+  _dataSource: {fileID: 287697615}
+  _propertyName: localEulerAngles
   _keepSending: 1
 --- !u!114 &772774013
 MonoBehaviour:
@@ -15069,8 +14904,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
   _oscAddress: /TFSSlime/Position/LHI3
-  _dataSource: {fileID: 0}
-  _propertyName: 
+  _dataSource: {fileID: 287697615}
+  _propertyName: localPosition
   _keepSending: 1
 --- !u!114 &776339137
 MonoBehaviour:
@@ -15414,9 +15249,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Rotation/
-  _dataSource: {fileID: 0}
-  _propertyName: 
+  _oscAddress: /TFSSlime/Rotation/LHT1
+  _dataSource: {fileID: 287697589}
+  _propertyName: localEulerAngles
   _keepSending: 1
 --- !u!114 &802008778
 MonoBehaviour:
@@ -15431,9 +15266,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Position/
-  _dataSource: {fileID: 0}
-  _propertyName: 
+  _oscAddress: /TFSSlime/Position/LHT1
+  _dataSource: {fileID: 287697589}
+  _propertyName: localPosition
   _keepSending: 1
 --- !u!1 &815089628
 GameObject:
@@ -15779,7 +15614,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Position/RTE
+  _oscAddress: /TFSSlime/Rotation/RTE
   _dataSource: {fileID: 844779228}
   _propertyName: localEulerAngles
   _keepSending: 1
@@ -16262,7 +16097,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Rotation/
+  _oscAddress: /TFSSlime/Rotation/RHR3
   _dataType: 5
   _event:
     m_PersistentCalls:
@@ -16279,13 +16114,13 @@ MonoBehaviour:
   _vector3Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 734338778}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localEulerAngles
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -16316,7 +16151,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Position/
+  _oscAddress: /TFSSlime/Position/RHR3
   _dataType: 5
   _event:
     m_PersistentCalls:
@@ -16333,13 +16168,13 @@ MonoBehaviour:
   _vector3Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 734338778}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localPosition
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -16464,7 +16299,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Rotation/
+  _oscAddress: /TFSSlime/Rotation/RHM2
   _dataType: 5
   _event:
     m_PersistentCalls:
@@ -16481,13 +16316,13 @@ MonoBehaviour:
   _vector3Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 734338789}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localEulerAngles
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -16518,7 +16353,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Position/
+  _oscAddress: /TFSSlime/Position/RHM2
   _dataType: 5
   _event:
     m_PersistentCalls:
@@ -16535,13 +16370,13 @@ MonoBehaviour:
   _vector3Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 734338789}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localPosition
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -16577,7 +16412,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Rotation/
+  _oscAddress: /TFSSlime/Rotation/RHT4
   _dataType: 5
   _event:
     m_PersistentCalls:
@@ -16594,13 +16429,13 @@ MonoBehaviour:
   _vector3Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 882635677}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localEulerAngles
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -16631,7 +16466,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Position/
+  _oscAddress: /TFSSlime/Position/RHT4
   _dataType: 5
   _event:
     m_PersistentCalls:
@@ -16648,13 +16483,13 @@ MonoBehaviour:
   _vector3Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 882635677}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localPosition
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -16672,6 +16507,11 @@ MonoBehaviour:
   _stringEvent:
     m_PersistentCalls:
       m_Calls: []
+--- !u!4 &882635677 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -597670272443537037, guid: e2f4af790fb40ab429d46bd7c4f72117, type: 3}
+  m_PrefabInstance: {fileID: 734338751}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &887209749
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16792,9 +16632,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Rotation/
-  _dataSource: {fileID: 0}
-  _propertyName: 
+  _oscAddress: /TFSSlime/Rotation/LHR2
+  _dataSource: {fileID: 287697596}
+  _propertyName: localEulerAngles
   _keepSending: 1
 --- !u!114 &887209751
 MonoBehaviour:
@@ -16809,9 +16649,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Position/
-  _dataSource: {fileID: 0}
-  _propertyName: 
+  _oscAddress: /TFSSlime/Position/LHR2
+  _dataSource: {fileID: 287697596}
+  _propertyName: localPosition
   _keepSending: 1
 --- !u!1 &887688551
 GameObject:
@@ -17121,7 +16961,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Rotation/
+  _oscAddress: /TFSSlime/Rotation/RTB
   _dataType: 5
   _event:
     m_PersistentCalls:
@@ -17138,13 +16978,13 @@ MonoBehaviour:
   _vector3Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 734338753}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localEulerAngles
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -17175,7 +17015,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Position/
+  _oscAddress: /TFSSlime/Position/RTB
   _dataType: 5
   _event:
     m_PersistentCalls:
@@ -17192,13 +17032,13 @@ MonoBehaviour:
   _vector3Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 734338753}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localPosition
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -17234,9 +17074,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Rotation/
-  _dataSource: {fileID: 0}
-  _propertyName: 
+  _oscAddress: /TFSSlime/Rotation/LHI4
+  _dataSource: {fileID: 903103961}
+  _propertyName: localEulerAngles
   _keepSending: 1
 --- !u!114 &903103960
 MonoBehaviour:
@@ -17251,10 +17091,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Position/
-  _dataSource: {fileID: 0}
-  _propertyName: 
+  _oscAddress: /TFSSlime/Position/LHI4
+  _dataSource: {fileID: 903103961}
+  _propertyName: localPosition
   _keepSending: 1
+--- !u!4 &903103961 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4952425061262535606, guid: e2f4af790fb40ab429d46bd7c4f72117, type: 3}
+  m_PrefabInstance: {fileID: 287697537}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &907463026
 GameObject:
   m_ObjectHideFlags: 0
@@ -17561,7 +17406,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Rotation/
+  _oscAddress: /TFSSlime/Rotation/LHI3
   _dataType: 5
   _event:
     m_PersistentCalls:
@@ -17578,13 +17423,13 @@ MonoBehaviour:
   _vector3Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 734338834}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localEulerAngles
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -17615,7 +17460,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Position/
+  _oscAddress: /TFSSlime/Position/LHI3
   _dataType: 5
   _event:
     m_PersistentCalls:
@@ -17632,13 +17477,13 @@ MonoBehaviour:
   _vector3Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 734338834}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localPosition
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -17674,7 +17519,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Rotation/
+  _oscAddress: /TFSSlime/Rotation/LHR4
   _dataType: 5
   _event:
     m_PersistentCalls:
@@ -17691,13 +17536,13 @@ MonoBehaviour:
   _vector3Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 934157786}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localEulerAngles
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -17728,7 +17573,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Position/
+  _oscAddress: /TFSSlime/Position/LHR4
   _dataType: 5
   _event:
     m_PersistentCalls:
@@ -17745,13 +17590,13 @@ MonoBehaviour:
   _vector3Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 934157786}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localPosition
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -17769,6 +17614,11 @@ MonoBehaviour:
   _stringEvent:
     m_PersistentCalls:
       m_Calls: []
+--- !u!4 &934157786 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3835053909659265441, guid: e2f4af790fb40ab429d46bd7c4f72117, type: 3}
+  m_PrefabInstance: {fileID: 734338751}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &941829263
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17923,7 +17773,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Rotation/
+  _oscAddress: /TFSSlime/Rotation/RF
   _dataType: 5
   _event:
     m_PersistentCalls:
@@ -17940,13 +17790,13 @@ MonoBehaviour:
   _vector3Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 734338755}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localEulerAngles
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -17977,7 +17827,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Position/
+  _oscAddress: /TFSSlime/Position/RF
   _dataType: 5
   _event:
     m_PersistentCalls:
@@ -17994,13 +17844,13 @@ MonoBehaviour:
   _vector3Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 734338755}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localPosition
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -18138,7 +17988,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Rotation/
+  _oscAddress: /TFSSlime/Rotation/RHT3
   _dataType: 5
   _event:
     m_PersistentCalls:
@@ -18155,13 +18005,13 @@ MonoBehaviour:
   _vector3Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 734338772}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localEulerAngles
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -18192,7 +18042,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Position/
+  _oscAddress: /TFSSlime/Position/RHT3
   _dataType: 5
   _event:
     m_PersistentCalls:
@@ -18209,13 +18059,13 @@ MonoBehaviour:
   _vector3Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 734338772}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localPosition
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -18572,7 +18422,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Rotation/
+  _oscAddress: /TFSSlime/Rotation/RHR1
   _dataType: 5
   _event:
     m_PersistentCalls:
@@ -18589,13 +18439,13 @@ MonoBehaviour:
   _vector3Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 734338776}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localEulerAngles
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -18626,7 +18476,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Position/
+  _oscAddress: /TFSSlime/Position/RHR1
   _dataType: 5
   _event:
     m_PersistentCalls:
@@ -18643,13 +18493,13 @@ MonoBehaviour:
   _vector3Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 734338776}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localPosition
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -18787,7 +18637,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Rotation/
+  _oscAddress: /TFSSlime/Rotation/LHR3
   _dataType: 5
   _event:
     m_PersistentCalls:
@@ -18804,13 +18654,13 @@ MonoBehaviour:
   _vector3Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 734338816}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localEulerAngles
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -18841,7 +18691,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Position/
+  _oscAddress: /TFSSlime/Position/LHR3
   _dataType: 5
   _event:
     m_PersistentCalls:
@@ -18858,13 +18708,13 @@ MonoBehaviour:
   _vector3Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 734338816}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localPosition
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -19002,9 +18852,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Rotation/
-  _dataSource: {fileID: 0}
-  _propertyName: 
+  _oscAddress: /TFSSlime/Rotation/RHM1
+  _dataSource: {fileID: 287697565}
+  _propertyName: localEulerAngles
   _keepSending: 1
 --- !u!114 &980434539
 MonoBehaviour:
@@ -19019,9 +18869,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Position/
-  _dataSource: {fileID: 0}
-  _propertyName: 
+  _oscAddress: /TFSSlime/Position/RHM1
+  _dataSource: {fileID: 287697565}
+  _propertyName: localPosition
   _keepSending: 1
 --- !u!114 &1003483323
 MonoBehaviour:
@@ -19143,7 +18993,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Rotation/
+  _oscAddress: /TFSSlime/Rotation/RHT2
   _dataType: 5
   _event:
     m_PersistentCalls:
@@ -19160,13 +19010,13 @@ MonoBehaviour:
   _vector3Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 734338771}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localEulerAngles
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -19197,7 +19047,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Position/
+  _oscAddress: /TFSSlime/Position/RHT2
   _dataType: 5
   _event:
     m_PersistentCalls:
@@ -19214,13 +19064,13 @@ MonoBehaviour:
   _vector3Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 734338771}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localPosition
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -19358,7 +19208,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Rotation/
+  _oscAddress: /TFSSlime/Rotation/RL
   _dataType: 5
   _event:
     m_PersistentCalls:
@@ -19375,13 +19225,13 @@ MonoBehaviour:
   _vector3Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 734338757}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localEulerAngles
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -19412,7 +19262,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Position/
+  _oscAddress: /TFSSlime/Position/RL
   _dataType: 5
   _event:
     m_PersistentCalls:
@@ -19429,13 +19279,13 @@ MonoBehaviour:
   _vector3Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 734338757}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localPosition
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -19573,9 +19423,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Rotation/
-  _dataSource: {fileID: 0}
-  _propertyName: 
+  _oscAddress: /TFSSlime/Rotation/RFA
+  _dataSource: {fileID: 287697545}
+  _propertyName: localEulerAngles
   _keepSending: 1
 --- !u!114 &1019215551
 MonoBehaviour:
@@ -19590,9 +19440,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Position/
-  _dataSource: {fileID: 0}
-  _propertyName: 
+  _oscAddress: /TFSSlime/Position/RFA
+  _dataSource: {fileID: 287697545}
+  _propertyName: localPosition
   _keepSending: 1
 --- !u!1 &1029033963
 GameObject:
@@ -19701,7 +19551,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Rotation/
+  _oscAddress: /TFSSlime/Rotation/RH
   _dataType: 5
   _event:
     m_PersistentCalls:
@@ -19718,13 +19568,13 @@ MonoBehaviour:
   _vector3Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 734338769}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localEulerAngles
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -19755,7 +19605,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Position/
+  _oscAddress: /TFSSlime/Position/RH
   _dataType: 5
   _event:
     m_PersistentCalls:
@@ -19772,13 +19622,13 @@ MonoBehaviour:
   _vector3Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 734338769}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localPosition
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -20049,7 +19899,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Rotation/
+  _oscAddress: /TFSSlime/Rotation/RHI2
   _dataType: 5
   _event:
     m_PersistentCalls:
@@ -20066,13 +19916,13 @@ MonoBehaviour:
   _vector3Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 734338795}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localEulerAngles
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -20103,7 +19953,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Position/
+  _oscAddress: /TFSSlime/Position/RHI2
   _dataType: 5
   _event:
     m_PersistentCalls:
@@ -20120,13 +19970,13 @@ MonoBehaviour:
   _vector3Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 734338795}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localPosition
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -20573,7 +20423,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Rotation/
+  _oscAddress: /TFSSlime/Rotation/RS
   _dataType: 5
   _event:
     m_PersistentCalls:
@@ -20590,13 +20440,13 @@ MonoBehaviour:
   _vector3Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 734338805}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localEulerAngles
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -20627,7 +20477,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Position/
+  _oscAddress: /TFSSlime/Position/RS
   _dataType: 5
   _event:
     m_PersistentCalls:
@@ -20644,13 +20494,13 @@ MonoBehaviour:
   _vector3Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 734338805}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localPosition
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -20788,7 +20638,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Rotation/
+  _oscAddress: /TFSSlime/Rotation/LHT1
   _dataType: 5
   _event:
     m_PersistentCalls:
@@ -20805,13 +20655,13 @@ MonoBehaviour:
   _vector3Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 734338808}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localEulerAngles
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -20842,7 +20692,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Position/
+  _oscAddress: /TFSSlime/Position/LHT1
   _dataType: 5
   _event:
     m_PersistentCalls:
@@ -20859,13 +20709,13 @@ MonoBehaviour:
   _vector3Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 734338808}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localPosition
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -21191,7 +21041,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Rotation/
+  _oscAddress: /TFSSlime/Rotation/LHP1
   _dataType: 5
   _event:
     m_PersistentCalls:
@@ -21208,13 +21058,13 @@ MonoBehaviour:
   _vector3Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 734338820}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localEulerAngles
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -21245,7 +21095,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Position/
+  _oscAddress: /TFSSlime/Position/LHP1
   _dataType: 5
   _event:
     m_PersistentCalls:
@@ -21262,13 +21112,13 @@ MonoBehaviour:
   _vector3Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 734338820}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localPosition
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -21393,7 +21243,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Rotation/
+  _oscAddress: /TFSSlime/Rotation/RA
   _dataType: 5
   _event:
     m_PersistentCalls:
@@ -21410,13 +21260,13 @@ MonoBehaviour:
   _vector3Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 734338803}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localEulerAngles
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -21447,7 +21297,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Position/
+  _oscAddress: /TFSSlime/Position/RA
   _dataType: 5
   _event:
     m_PersistentCalls:
@@ -21464,13 +21314,13 @@ MonoBehaviour:
   _vector3Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 734338803}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localPosition
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -22139,7 +21989,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Rotation/
+  _oscAddress: /TFSSlime/Rotation/RHI1
   _dataType: 5
   _event:
     m_PersistentCalls:
@@ -22156,13 +22006,13 @@ MonoBehaviour:
   _vector3Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 734338794}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localEulerAngles
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -22193,7 +22043,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Position/
+  _oscAddress: /TFSSlime/Position/RHI1
   _dataType: 5
   _event:
     m_PersistentCalls:
@@ -22210,13 +22060,13 @@ MonoBehaviour:
   _vector3Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 734338794}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localPosition
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -22385,9 +22235,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Rotation/
-  _dataSource: {fileID: 0}
-  _propertyName: 
+  _oscAddress: /TFSSlime/Rotation/RH
+  _dataSource: {fileID: 287697546}
+  _propertyName: localEulerAngles
   _keepSending: 1
 --- !u!114 &1173372652
 MonoBehaviour:
@@ -22402,9 +22252,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Position/
-  _dataSource: {fileID: 0}
-  _propertyName: 
+  _oscAddress: /TFSSlime/Position/RH
+  _dataSource: {fileID: 287697546}
+  _propertyName: localPosition
   _keepSending: 1
 --- !u!114 &1174179057
 MonoBehaviour:
@@ -23055,7 +22905,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Rotation/
+  _oscAddress: /TFSSlime/Rotation/LHI1
   _dataType: 5
   _event:
     m_PersistentCalls:
@@ -23072,13 +22922,13 @@ MonoBehaviour:
   _vector3Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 734338832}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localEulerAngles
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -23109,7 +22959,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Position/
+  _oscAddress: /TFSSlime/Position/LHI1
   _dataType: 5
   _event:
     m_PersistentCalls:
@@ -23126,13 +22976,13 @@ MonoBehaviour:
   _vector3Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 734338832}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localPosition
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -23270,7 +23120,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Rotation/
+  _oscAddress: /TFSSlime/Rotation/LHT2
   _dataType: 5
   _event:
     m_PersistentCalls:
@@ -23287,13 +23137,13 @@ MonoBehaviour:
   _vector3Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 734338809}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localEulerAngles
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -23324,7 +23174,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Position/
+  _oscAddress: /TFSSlime/Position/LHT2
   _dataType: 5
   _event:
     m_PersistentCalls:
@@ -23341,13 +23191,13 @@ MonoBehaviour:
   _vector3Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 734338809}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localPosition
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -23555,7 +23405,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Rotation/
+  _oscAddress: /TFSSlime/Rotation/RHM3
   _dataType: 5
   _event:
     m_PersistentCalls:
@@ -23572,13 +23422,13 @@ MonoBehaviour:
   _vector3Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 734338790}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localEulerAngles
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -23609,7 +23459,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Position/
+  _oscAddress: /TFSSlime/Position/RHM3
   _dataType: 5
   _event:
     m_PersistentCalls:
@@ -23626,13 +23476,13 @@ MonoBehaviour:
   _vector3Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 734338790}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localPosition
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -23986,7 +23836,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Rotation/
+  _oscAddress: /TFSSlime/Rotation/RHR4
   _dataType: 5
   _event:
     m_PersistentCalls:
@@ -24003,13 +23853,13 @@ MonoBehaviour:
   _vector3Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 1264572138}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localEulerAngles
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -24040,7 +23890,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Position/
+  _oscAddress: /TFSSlime/Position/RHR4
   _dataType: 5
   _event:
     m_PersistentCalls:
@@ -24057,13 +23907,13 @@ MonoBehaviour:
   _vector3Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 1264572138}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localPosition
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -24081,100 +23931,11 @@ MonoBehaviour:
   _stringEvent:
     m_PersistentCalls:
       m_Calls: []
---- !u!1 &1271301610
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1271301611}
-  - component: {fileID: 1271301614}
-  - component: {fileID: 1271301613}
-  - component: {fileID: 1271301612}
-  m_Layer: 0
-  m_Name: Coll.mixamorig1:LeftHand (2)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1271301611
+--- !u!4 &1264572138 stripped
 Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: -1775126338366397726, guid: e2f4af790fb40ab429d46bd7c4f72117, type: 3}
+  m_PrefabInstance: {fileID: 734338751}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1271301610}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.0177, y: 0.0951, z: 0.0014}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 287697588}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!135 &1271301612
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1271301610}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Radius: 0.01330309
-  m_Center: {x: 0.0030542426, y: 0.0026097195, z: 0.002240207}
---- !u!54 &1271301613
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1271301610}
-  serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &1271301614
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1271301610}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9ef2b87818a56064b926871454f01541, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1284616780
 GameObject:
   m_ObjectHideFlags: 0
@@ -24376,7 +24137,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Rotation/
+  _oscAddress: /TFSSlime/Rotation/LHP3
   _dataType: 5
   _event:
     m_PersistentCalls:
@@ -24393,13 +24154,13 @@ MonoBehaviour:
   _vector3Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 734338822}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localEulerAngles
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -24430,7 +24191,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Position/
+  _oscAddress: /TFSSlime/Position/LHP3
   _dataType: 5
   _event:
     m_PersistentCalls:
@@ -24447,13 +24208,13 @@ MonoBehaviour:
   _vector3Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 734338822}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localPosition
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -24471,100 +24232,6 @@ MonoBehaviour:
   _stringEvent:
     m_PersistentCalls:
       m_Calls: []
---- !u!1 &1291547877
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1291547878}
-  - component: {fileID: 1291547881}
-  - component: {fileID: 1291547880}
-  - component: {fileID: 1291547879}
-  m_Layer: 0
-  m_Name: Coll.mixamorig1:LeftForeArm (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1291547878
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1291547877}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.001, y: 0.216, z: 0.001}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 287697587}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!135 &1291547879
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1291547877}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Radius: 0.02606703
-  m_Center: {x: 0.00032471493, y: -0.006845217, z: 0.0013773739}
---- !u!54 &1291547880
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1291547877}
-  serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &1291547881
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1291547877}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9ef2b87818a56064b926871454f01541, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1306500733
 GameObject:
   m_ObjectHideFlags: 0
@@ -25534,9 +25201,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Rotation/
-  _dataSource: {fileID: 0}
-  _propertyName: 
+  _oscAddress: /TFSSlime/Rotation/Head
+  _dataSource: {fileID: 287697582}
+  _propertyName: localEulerAngles
   _keepSending: 1
 --- !u!114 &1356751033
 MonoBehaviour:
@@ -25551,9 +25218,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Position/
-  _dataSource: {fileID: 0}
-  _propertyName: 
+  _oscAddress: /TFSSlime/Position/Head
+  _dataSource: {fileID: 287697582}
+  _propertyName: localPosition
   _keepSending: 1
 --- !u!1 &1360378153
 GameObject:
@@ -25723,7 +25390,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Rotation/
+  _oscAddress: /TFSSlime/Rotation/LA
   _dataType: 5
   _event:
     m_PersistentCalls:
@@ -25740,13 +25407,13 @@ MonoBehaviour:
   _vector3Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 734338841}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localEulerAngles
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -25777,7 +25444,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Position/
+  _oscAddress: /TFSSlime/Position/LA
   _dataType: 5
   _event:
     m_PersistentCalls:
@@ -25794,13 +25461,13 @@ MonoBehaviour:
   _vector3Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 734338841}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localPosition
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -26162,6 +25829,124 @@ Transform:
   - {fileID: 311999747}
   m_Father: {fileID: 2118873049}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1417366976 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -6241423094453666866, guid: e2f4af790fb40ab429d46bd7c4f72117, type: 3}
+  m_PrefabInstance: {fileID: 734338751}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1417366977 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4906179655175135653, guid: e2f4af790fb40ab429d46bd7c4f72117, type: 3}
+  m_PrefabInstance: {fileID: 734338751}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1417366978
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1417366976}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51f8f979447c54247bcba0d5441e6081, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
+  _oscAddress: /TFSSlime/Position/RTE
+  _dataType: 5
+  _event:
+    m_PersistentCalls:
+      m_Calls: []
+  _intEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _floatEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _vector2Event:
+    m_PersistentCalls:
+      m_Calls: []
+  _vector3Event:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1417366977}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localEulerAngles
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  _vector4Event:
+    m_PersistentCalls:
+      m_Calls: []
+  _vector2IntEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _vector3IntEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _stringEvent:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &1417366979
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1417366976}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51f8f979447c54247bcba0d5441e6081, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
+  _oscAddress: /TFSSlime/Position/RTE
+  _dataType: 5
+  _event:
+    m_PersistentCalls:
+      m_Calls: []
+  _intEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _floatEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _vector2Event:
+    m_PersistentCalls:
+      m_Calls: []
+  _vector3Event:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1417366977}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localPosition
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  _vector4Event:
+    m_PersistentCalls:
+      m_Calls: []
+  _vector2IntEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _vector3IntEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _stringEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &1421913196
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26282,9 +26067,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Rotation/
-  _dataSource: {fileID: 0}
-  _propertyName: 
+  _oscAddress: /TFSSlime/Rotation/RHP1
+  _dataSource: {fileID: 287697559}
+  _propertyName: localEulerAngles
   _keepSending: 1
 --- !u!114 &1421913198
 MonoBehaviour:
@@ -26299,9 +26084,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Position/
-  _dataSource: {fileID: 0}
-  _propertyName: 
+  _oscAddress: /TFSSlime/Position/RHP1
+  _dataSource: {fileID: 287697559}
+  _propertyName: localPosition
   _keepSending: 1
 --- !u!1 &1439962116
 GameObject:
@@ -26658,7 +26443,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Rotation/
+  _oscAddress: /TFSSlime/Rotation/LHM3
   _dataType: 5
   _event:
     m_PersistentCalls:
@@ -26675,13 +26460,13 @@ MonoBehaviour:
   _vector3Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 734338828}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localEulerAngles
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -26712,7 +26497,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Position/
+  _oscAddress: /TFSSlime/Position/LHM3
   _dataType: 5
   _event:
     m_PersistentCalls:
@@ -26729,13 +26514,13 @@ MonoBehaviour:
   _vector3Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 734338828}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localPosition
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -26766,7 +26551,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Rotation/
+  _oscAddress: /TFSSlime/Rotation/LH
   _dataType: 5
   _event:
     m_PersistentCalls:
@@ -26783,13 +26568,13 @@ MonoBehaviour:
   _vector3Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 734338807}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localEulerAngles
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -26820,7 +26605,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Position/
+  _oscAddress: /TFSSlime/Position/LH
   _dataType: 5
   _event:
     m_PersistentCalls:
@@ -26837,13 +26622,13 @@ MonoBehaviour:
   _vector3Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 734338807}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localPosition
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -26981,9 +26766,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Rotation/
-  _dataSource: {fileID: 0}
-  _propertyName: 
+  _oscAddress: /TFSSlime/Rotation/LHP3
+  _dataSource: {fileID: 287697603}
+  _propertyName: localEulerAngles
   _keepSending: 1
 --- !u!114 &1472258701
 MonoBehaviour:
@@ -26998,9 +26783,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Position/
-  _dataSource: {fileID: 0}
-  _propertyName: 
+  _oscAddress: /TFSSlime/Position/LHP3
+  _dataSource: {fileID: 287697603}
+  _propertyName: localPosition
   _keepSending: 1
 --- !u!1 &1478809583
 GameObject:
@@ -27051,9 +26836,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Rotation/
-  _dataSource: {fileID: 0}
-  _propertyName: 
+  _oscAddress: /TFSSlime/Rotation/LHT4
+  _dataSource: {fileID: 1479337177}
+  _propertyName: localEulerAngles
   _keepSending: 1
 --- !u!114 &1479337176
 MonoBehaviour:
@@ -27068,10 +26853,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Position/
-  _dataSource: {fileID: 0}
-  _propertyName: 
+  _oscAddress: /TFSSlime/Position/LHT4
+  _dataSource: {fileID: 1479337177}
+  _propertyName: localPosition
   _keepSending: 1
+--- !u!4 &1479337177 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -7014952184415007032, guid: e2f4af790fb40ab429d46bd7c4f72117, type: 3}
+  m_PrefabInstance: {fileID: 287697537}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1495306063
 GameObject:
   m_ObjectHideFlags: 0
@@ -27380,7 +27170,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Rotation/
+  _oscAddress: /TFSSlime/Rotation/S2
   _dataType: 5
   _event:
     m_PersistentCalls:
@@ -27397,13 +27187,13 @@ MonoBehaviour:
   _vector3Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 734338849}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localEulerAngles
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -27434,7 +27224,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Position/
+  _oscAddress: /TFSSlime/Position/S2
   _dataType: 5
   _event:
     m_PersistentCalls:
@@ -27451,13 +27241,13 @@ MonoBehaviour:
   _vector3Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 734338849}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localPosition
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -27595,7 +27385,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Rotation/
+  _oscAddress: /TFSSlime/Rotation/LHI2
   _dataType: 5
   _event:
     m_PersistentCalls:
@@ -27612,13 +27402,13 @@ MonoBehaviour:
   _vector3Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 734338833}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localEulerAngles
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -27649,7 +27439,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Position/
+  _oscAddress: /TFSSlime/Position/LHI2
   _dataType: 5
   _event:
     m_PersistentCalls:
@@ -27666,13 +27456,13 @@ MonoBehaviour:
   _vector3Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 734338833}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localPosition
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -27982,7 +27772,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Rotation/
+  _oscAddress: /TFSSlime/Rotation/N
   _dataType: 5
   _event:
     m_PersistentCalls:
@@ -27999,13 +27789,13 @@ MonoBehaviour:
   _vector3Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 734338847}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localEulerAngles
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -28036,7 +27826,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Position/
+  _oscAddress: /TFSSlime/Position/N
   _dataType: 5
   _event:
     m_PersistentCalls:
@@ -28053,13 +27843,13 @@ MonoBehaviour:
   _vector3Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 734338847}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localPosition
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -28197,7 +27987,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Rotation/
+  _oscAddress: /TFSSlime/Rotation/LFA
   _dataType: 5
   _event:
     m_PersistentCalls:
@@ -28214,13 +28004,13 @@ MonoBehaviour:
   _vector3Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 734338839}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localEulerAngles
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -28251,7 +28041,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Position/
+  _oscAddress: /TFSSlime/Position/LFA
   _dataType: 5
   _event:
     m_PersistentCalls:
@@ -28268,13 +28058,13 @@ MonoBehaviour:
   _vector3Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 734338839}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localPosition
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -28412,9 +28202,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Rotation/
-  _dataSource: {fileID: 0}
-  _propertyName: 
+  _oscAddress: /TFSSlime/Rotation/LHT3
+  _dataSource: {fileID: 287697591}
+  _propertyName: localEulerAngles
   _keepSending: 1
 --- !u!114 &1565015689
 MonoBehaviour:
@@ -28429,9 +28219,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Position/
-  _dataSource: {fileID: 0}
-  _propertyName: 
+  _oscAddress: /TFSSlime/Position/LHT3
+  _dataSource: {fileID: 287697591}
+  _propertyName: localPosition
   _keepSending: 1
 --- !u!1 &1570403527
 GameObject:
@@ -29020,6 +28810,50 @@ MonoBehaviour:
   _stringEvent:
     m_PersistentCalls:
       m_Calls: []
+--- !u!1 &1619941041 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -6296862554922033453, guid: e2f4af790fb40ab429d46bd7c4f72117, type: 3}
+  m_PrefabInstance: {fileID: 287697537}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1619941042 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5043611922549067111, guid: e2f4af790fb40ab429d46bd7c4f72117, type: 3}
+  m_PrefabInstance: {fileID: 287697537}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1619941043
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1619941041}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e43cc78b62f2184d8bebe41bd574f9e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
+  _oscAddress: /TFSSlime/Rotation/HTE
+  _dataSource: {fileID: 1619941042}
+  _propertyName: localEulerAngles
+  _keepSending: 1
+--- !u!114 &1619941044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1619941041}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e43cc78b62f2184d8bebe41bd574f9e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
+  _oscAddress: /TFSSlime/Position/HTE
+  _dataSource: {fileID: 1619941042}
+  _propertyName: localPosition
+  _keepSending: 1
 --- !u!114 &1626193601
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29160,194 +28994,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1631960224}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &1633465474
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1633465475}
-  - component: {fileID: 1633465478}
-  - component: {fileID: 1633465477}
-  - component: {fileID: 1633465476}
-  m_Layer: 0
-  m_Name: Coll.mixamorig1:LeftArm (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1633465475
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1633465474}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.015, y: 0.262, z: 0.011}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 734338841}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!135 &1633465476
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1633465474}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Radius: 0.05048212
-  m_Center: {x: 0.017465478, y: 0.0058642384, z: -0.0037434772}
---- !u!54 &1633465477
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1633465474}
-  serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &1633465478
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1633465474}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9ef2b87818a56064b926871454f01541, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!1 &1640107033
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1640107034}
-  - component: {fileID: 1640107037}
-  - component: {fileID: 1640107036}
-  - component: {fileID: 1640107035}
-  m_Layer: 0
-  m_Name: Coll.mixamorig1:LeftHand (2)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1640107034
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1640107033}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.0177, y: 0.0951, z: 0.0014}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 734338807}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!135 &1640107035
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1640107033}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Radius: 0.01330309
-  m_Center: {x: 0.0030542426, y: 0.0026097195, z: 0.002240207}
---- !u!54 &1640107036
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1640107033}
-  serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &1640107037
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1640107033}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9ef2b87818a56064b926871454f01541, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1650062619
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29703,7 +29349,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Rotation/
+  _oscAddress: /TFSSlime/Rotation/LHR1
   _dataType: 5
   _event:
     m_PersistentCalls:
@@ -29720,13 +29366,13 @@ MonoBehaviour:
   _vector3Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 734338814}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localEulerAngles
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -29757,7 +29403,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Position/
+  _oscAddress: /TFSSlime/Position/LHR1
   _dataType: 5
   _event:
     m_PersistentCalls:
@@ -29774,13 +29420,13 @@ MonoBehaviour:
   _vector3Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 734338814}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localPosition
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -30251,7 +29897,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Rotation/
+  _oscAddress: /TFSSlime/Rotation/LHT4
   _dataType: 5
   _event:
     m_PersistentCalls:
@@ -30268,13 +29914,13 @@ MonoBehaviour:
   _vector3Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 1682893013}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localEulerAngles
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -30305,7 +29951,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Position/
+  _oscAddress: /TFSSlime/Position/LHT4
   _dataType: 5
   _event:
     m_PersistentCalls:
@@ -30322,13 +29968,13 @@ MonoBehaviour:
   _vector3Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 1682893013}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localPosition
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -30346,6 +29992,11 @@ MonoBehaviour:
   _stringEvent:
     m_PersistentCalls:
       m_Calls: []
+--- !u!4 &1682893013 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -7014952184415007032, guid: e2f4af790fb40ab429d46bd7c4f72117, type: 3}
+  m_PrefabInstance: {fileID: 734338751}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1688652960
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30466,7 +30117,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Rotation/
+  _oscAddress: /TFSSlime/Rotation/LHT3
   _dataType: 5
   _event:
     m_PersistentCalls:
@@ -30483,13 +30134,13 @@ MonoBehaviour:
   _vector3Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 734338810}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localEulerAngles
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -30520,7 +30171,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Position/
+  _oscAddress: /TFSSlime/Position/LHT3
   _dataType: 5
   _event:
     m_PersistentCalls:
@@ -30537,13 +30188,13 @@ MonoBehaviour:
   _vector3Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 734338810}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localPosition
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -30869,7 +30520,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Rotation/
+  _oscAddress: /TFSSlime/Rotation/LHR2
   _dataType: 5
   _event:
     m_PersistentCalls:
@@ -30886,13 +30537,13 @@ MonoBehaviour:
   _vector3Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 734338815}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localEulerAngles
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -30923,7 +30574,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Position/
+  _oscAddress: /TFSSlime/Position/LHR2
   _dataType: 5
   _event:
     m_PersistentCalls:
@@ -30940,13 +30591,13 @@ MonoBehaviour:
   _vector3Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 734338815}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localPosition
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -31084,7 +30735,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Rotation/
+  _oscAddress: /TFSSlime/Rotation/RHP1
   _dataType: 5
   _event:
     m_PersistentCalls:
@@ -31101,13 +30752,13 @@ MonoBehaviour:
   _vector3Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 734338782}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localEulerAngles
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -31138,7 +30789,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Position/
+  _oscAddress: /TFSSlime/Position/RHP1
   _dataType: 5
   _event:
     m_PersistentCalls:
@@ -31155,13 +30806,13 @@ MonoBehaviour:
   _vector3Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 734338782}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localPosition
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -31340,7 +30991,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Rotation/
+  _oscAddress: /TFSSlime/Rotation/LHM4
   _dataType: 5
   _event:
     m_PersistentCalls:
@@ -31357,13 +31008,13 @@ MonoBehaviour:
   _vector3Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 1783442564}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localEulerAngles
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -31394,7 +31045,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Position/
+  _oscAddress: /TFSSlime/Position/LHM4
   _dataType: 5
   _event:
     m_PersistentCalls:
@@ -31411,13 +31062,13 @@ MonoBehaviour:
   _vector3Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 1783442564}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localPosition
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -31435,6 +31086,11 @@ MonoBehaviour:
   _stringEvent:
     m_PersistentCalls:
       m_Calls: []
+--- !u!4 &1783442564 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7838928656029258800, guid: e2f4af790fb40ab429d46bd7c4f72117, type: 3}
+  m_PrefabInstance: {fileID: 734338751}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1789823733
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31448,9 +31104,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Rotation/
-  _dataSource: {fileID: 0}
-  _propertyName: 
+  _oscAddress: /TFSSlime/Rotation/RHR1
+  _dataSource: {fileID: 287697553}
+  _propertyName: localEulerAngles
   _keepSending: 1
 --- !u!114 &1789823734
 MonoBehaviour:
@@ -31465,9 +31121,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Position/
-  _dataSource: {fileID: 0}
-  _propertyName: 
+  _oscAddress: /TFSSlime/Position/RHR1
+  _dataSource: {fileID: 287697553}
+  _propertyName: localPosition
   _keepSending: 1
 --- !u!114 &1795315335
 MonoBehaviour:
@@ -32038,9 +31694,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Rotation/
-  _dataSource: {fileID: 0}
-  _propertyName: 
+  _oscAddress: /TFSSlime/Rotation/LHP4
+  _dataSource: {fileID: 1822204806}
+  _propertyName: localEulerAngles
   _keepSending: 1
 --- !u!114 &1822204805
 MonoBehaviour:
@@ -32055,10 +31711,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Position/
-  _dataSource: {fileID: 0}
-  _propertyName: 
+  _oscAddress: /TFSSlime/Position/LHP4
+  _dataSource: {fileID: 1822204806}
+  _propertyName: localPosition
   _keepSending: 1
+--- !u!4 &1822204806 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -7194005888291087254, guid: e2f4af790fb40ab429d46bd7c4f72117, type: 3}
+  m_PrefabInstance: {fileID: 287697537}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1823051531
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32468,7 +32129,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Rotation/
+  _oscAddress: /TFSSlime/Rotation/LHP4
   _dataType: 5
   _event:
     m_PersistentCalls:
@@ -32485,13 +32146,13 @@ MonoBehaviour:
   _vector3Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 1857376468}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localEulerAngles
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -32522,7 +32183,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Position/
+  _oscAddress: /TFSSlime/Position/LHP4
   _dataType: 5
   _event:
     m_PersistentCalls:
@@ -32539,13 +32200,13 @@ MonoBehaviour:
   _vector3Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 1857376468}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localPosition
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -32563,6 +32224,11 @@ MonoBehaviour:
   _stringEvent:
     m_PersistentCalls:
       m_Calls: []
+--- !u!4 &1857376468 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -7194005888291087254, guid: e2f4af790fb40ab429d46bd7c4f72117, type: 3}
+  m_PrefabInstance: {fileID: 734338751}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1868067138
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32683,7 +32349,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Rotation/
+  _oscAddress: /TFSSlime/Rotation/RFA
   _dataType: 5
   _event:
     m_PersistentCalls:
@@ -32700,13 +32366,13 @@ MonoBehaviour:
   _vector3Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 734338801}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localEulerAngles
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -32737,7 +32403,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Position/
+  _oscAddress: /TFSSlime/Position/RFA
   _dataType: 5
   _event:
     m_PersistentCalls:
@@ -32754,13 +32420,13 @@ MonoBehaviour:
   _vector3Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 734338801}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localPosition
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -33407,9 +33073,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Rotation/
-  _dataSource: {fileID: 0}
-  _propertyName: 
+  _oscAddress: /TFSSlime/Rotation/LHR4
+  _dataSource: {fileID: 1944837863}
+  _propertyName: localEulerAngles
   _keepSending: 1
 --- !u!114 &1944837862
 MonoBehaviour:
@@ -33424,10 +33090,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Position/
-  _dataSource: {fileID: 0}
-  _propertyName: 
+  _oscAddress: /TFSSlime/Position/LHR4
+  _dataSource: {fileID: 1944837863}
+  _propertyName: localPosition
   _keepSending: 1
+--- !u!4 &1944837863 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3835053909659265441, guid: e2f4af790fb40ab429d46bd7c4f72117, type: 3}
+  m_PrefabInstance: {fileID: 287697537}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1949038863
 GameObject:
   m_ObjectHideFlags: 0
@@ -33535,7 +33206,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Rotation/
+  _oscAddress: /TFSSlime/Rotation/LHP2
   _dataType: 5
   _event:
     m_PersistentCalls:
@@ -33552,13 +33223,13 @@ MonoBehaviour:
   _vector3Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 734338821}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localEulerAngles
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -33589,7 +33260,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Position/
+  _oscAddress: /TFSSlime/Position/LHP2
   _dataType: 5
   _event:
     m_PersistentCalls:
@@ -33606,13 +33277,13 @@ MonoBehaviour:
   _vector3Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 734338821}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localPosition
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -33750,7 +33421,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Rotation/
+  _oscAddress: /TFSSlime/Rotation/RHT1
   _dataType: 5
   _event:
     m_PersistentCalls:
@@ -33767,13 +33438,13 @@ MonoBehaviour:
   _vector3Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 734338770}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localEulerAngles
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -33804,7 +33475,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Position/
+  _oscAddress: /TFSSlime/Position/RHT1
   _dataType: 5
   _event:
     m_PersistentCalls:
@@ -33821,13 +33492,13 @@ MonoBehaviour:
   _vector3Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 734338770}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localPosition
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -34192,9 +33863,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Rotation/
-  _dataSource: {fileID: 0}
-  _propertyName: 
+  _oscAddress: /TFSSlime/Rotation/LHP2
+  _dataSource: {fileID: 287697602}
+  _propertyName: localEulerAngles
   _keepSending: 1
 --- !u!114 &1998970257
 MonoBehaviour:
@@ -34209,9 +33880,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Position/
-  _dataSource: {fileID: 0}
-  _propertyName: 
+  _oscAddress: /TFSSlime/Position/LHP2
+  _dataSource: {fileID: 287697602}
+  _propertyName: localPosition
   _keepSending: 1
 --- !u!1 &2000667756
 GameObject:
@@ -34351,7 +34022,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Rotation/
+  _oscAddress: /TFSSlime/Rotation/RHM1
   _dataType: 5
   _event:
     m_PersistentCalls:
@@ -34368,13 +34039,13 @@ MonoBehaviour:
   _vector3Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 734338788}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localEulerAngles
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -34405,7 +34076,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Position/
+  _oscAddress: /TFSSlime/Position/RHM1
   _dataType: 5
   _event:
     m_PersistentCalls:
@@ -34422,13 +34093,13 @@ MonoBehaviour:
   _vector3Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 734338788}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localPosition
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -34793,7 +34464,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Rotation/
+  _oscAddress: /TFSSlime/Rotation/RHM4
   _dataType: 5
   _event:
     m_PersistentCalls:
@@ -34810,13 +34481,13 @@ MonoBehaviour:
   _vector3Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 2028301000}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localEulerAngles
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -34847,7 +34518,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Position/
+  _oscAddress: /TFSSlime/Position/RHM4
   _dataType: 5
   _event:
     m_PersistentCalls:
@@ -34864,13 +34535,13 @@ MonoBehaviour:
   _vector3Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 2028301000}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localPosition
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -34888,6 +34559,11 @@ MonoBehaviour:
   _stringEvent:
     m_PersistentCalls:
       m_Calls: []
+--- !u!4 &2028301000 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4731265374944853468, guid: e2f4af790fb40ab429d46bd7c4f72117, type: 3}
+  m_PrefabInstance: {fileID: 734338751}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2031577585 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -4205239508068174135, guid: e2f4af790fb40ab429d46bd7c4f72117, type: 3}
@@ -34906,7 +34582,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Rotation/
+  _oscAddress: /TFSSlime/Rotation/RHP4
   _dataType: 5
   _event:
     m_PersistentCalls:
@@ -34923,13 +34599,13 @@ MonoBehaviour:
   _vector3Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 2031577589}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localEulerAngles
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -34977,13 +34653,13 @@ MonoBehaviour:
   _vector3Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 2031577589}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localPosition
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -35001,6 +34677,11 @@ MonoBehaviour:
   _stringEvent:
     m_PersistentCalls:
       m_Calls: []
+--- !u!4 &2031577589 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8832195961276668019, guid: e2f4af790fb40ab429d46bd7c4f72117, type: 3}
+  m_PrefabInstance: {fileID: 734338751}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2031858925
 GameObject:
   m_ObjectHideFlags: 0
@@ -35052,7 +34733,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Rotation/
+  _oscAddress: /TFSSlime/Rotation/LHI4
   _dataType: 5
   _event:
     m_PersistentCalls:
@@ -35069,13 +34750,13 @@ MonoBehaviour:
   _vector3Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 2035702140}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localEulerAngles
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -35106,7 +34787,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Position/
+  _oscAddress: /TFSSlime/Position/LHI4
   _dataType: 5
   _event:
     m_PersistentCalls:
@@ -35123,13 +34804,13 @@ MonoBehaviour:
   _vector3Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 2035702140}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localPosition
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -35147,6 +34828,11 @@ MonoBehaviour:
   _stringEvent:
     m_PersistentCalls:
       m_Calls: []
+--- !u!4 &2035702140 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4952425061262535606, guid: e2f4af790fb40ab429d46bd7c4f72117, type: 3}
+  m_PrefabInstance: {fileID: 734338751}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2036534404
 GameObject:
   m_ObjectHideFlags: 0
@@ -35726,100 +35412,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1809467991}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2078325559
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2078325560}
-  - component: {fileID: 2078325563}
-  - component: {fileID: 2078325562}
-  - component: {fileID: 2078325561}
-  m_Layer: 0
-  m_Name: Coll.mixamorig1:LeftHand (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2078325560
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2078325559}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.009, y: 0.103, z: 0.002}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 287697588}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!135 &2078325561
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2078325559}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Radius: 0.01330309
-  m_Center: {x: 0.0030542426, y: 0.0026097195, z: 0.002240207}
---- !u!54 &2078325562
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2078325559}
-  serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &2078325563
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2078325559}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9ef2b87818a56064b926871454f01541, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &2083823499
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35940,7 +35532,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Rotation/
+  _oscAddress: /TFSSlime/Rotation/LHM1
   _dataType: 5
   _event:
     m_PersistentCalls:
@@ -35957,13 +35549,13 @@ MonoBehaviour:
   _vector3Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 734338826}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localEulerAngles
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -35994,7 +35586,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Position/
+  _oscAddress: /TFSSlime/Position/LHM1
   _dataType: 5
   _event:
     m_PersistentCalls:
@@ -36011,13 +35603,13 @@ MonoBehaviour:
   _vector3Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 734338826}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localPosition
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -36563,7 +36155,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Rotation/
+  _oscAddress: /TFSSlime/Rotation/RHP2
   _dataType: 5
   _event:
     m_PersistentCalls:
@@ -36580,13 +36172,13 @@ MonoBehaviour:
   _vector3Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 734338783}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localEulerAngles
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -36617,7 +36209,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Position/
+  _oscAddress: /TFSSlime/Position/RHP2
   _dataType: 5
   _event:
     m_PersistentCalls:
@@ -36634,13 +36226,13 @@ MonoBehaviour:
   _vector3Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 734338783}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localPosition
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -36919,7 +36511,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Rotation/
+  _oscAddress: /TFSSlime/Rotation/RHR2
   _dataType: 5
   _event:
     m_PersistentCalls:
@@ -36936,13 +36528,13 @@ MonoBehaviour:
   _vector3Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 734338777}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localEulerAngles
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -36973,7 +36565,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Position/
+  _oscAddress: /TFSSlime/Position/RHR2
   _dataType: 5
   _event:
     m_PersistentCalls:
@@ -36990,13 +36582,13 @@ MonoBehaviour:
   _vector3Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 734338777}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localPosition
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -37199,7 +36791,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Rotation/
+  _oscAddress: /TFSSlime/Rotation/RHP3
   _dataType: 5
   _event:
     m_PersistentCalls:
@@ -37216,13 +36808,13 @@ MonoBehaviour:
   _vector3Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 734338784}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localEulerAngles
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -37253,7 +36845,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Position/
+  _oscAddress: /TFSSlime/Position/RHP3
   _dataType: 5
   _event:
     m_PersistentCalls:
@@ -37270,13 +36862,13 @@ MonoBehaviour:
   _vector3Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 734338784}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localPosition
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
