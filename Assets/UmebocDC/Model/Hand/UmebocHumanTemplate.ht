@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1105 &110500000
+HumanTemplate:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: UmebocHumanTemplate
+  m_BoneTemplate:
+    Chest: Chest
+    Head: Head
+    Hips: Hips
+    Left Index Distal: Index Distal.L
+    Left Index Intermediate: Index Intermediate.L
+    Left Index Proximal: Index Proximal.L
+    Left Little Distal: Little Distal.L
+    Left Little Intermediate: Little Intermediate.L
+    Left Little Proximal: Little Proximal.L
+    Left Middle Distal: Middle Distal.L
+    Left Middle Intermediate: Middle Intermediate.L
+    Left Middle Proximal: Middle Proximal.L
+    Left Ring Distal: Ring Distal.L
+    Left Ring Intermediate: Ring Intermediate.L
+    Left Ring Proximal: Ring Proximal.L
+    Left Thumb Distal: Thumb Distal.L
+    Left Thumb Intermediate: Thumb Intermediate.L
+    Left Thumb Proximal: Thumb Proximal.L
+    LeftEye: LeftEye
+    LeftFoot: Foot.L
+    LeftHand: Hand.L
+    LeftLowerArm: LowerArm.L
+    LeftLowerLeg: LowerLeg.L
+    LeftShoulder: Shoulder.L
+    LeftUpperArm: UpperArm.L
+    LeftUpperLeg: UpperLeg.L
+    Neck: Neck
+    Right Index Distal: Index Distal.R
+    Right Index Intermediate: Index Intermediate.R
+    Right Index Proximal: Index Proximal.R
+    Right Little Distal: Little Distal.R
+    Right Little Intermediate: Little Intermediate.R
+    Right Little Proximal: Little Proximal.R
+    Right Middle Distal: Middle Distal.R
+    Right Middle Intermediate: Middle Intermediate.R
+    Right Middle Proximal: Middle Proximal.R
+    Right Ring Distal: Ring Distal.R
+    Right Ring Intermediate: Ring Intermediate.R
+    Right Ring Proximal: Ring Proximal.R
+    Right Thumb Distal: Thumb Distal.R
+    Right Thumb Intermediate: Thumb Intermediate.R
+    Right Thumb Proximal: Thumb Proximal.R
+    RightEye: RightEye
+    RightFoot: Foot.R
+    RightHand: Hand.R
+    RightLowerArm: LowerArm.R
+    RightLowerLeg: LowerLeg.R
+    RightShoulder: Shoulder.R
+    RightUpperArm: UpperArm.R
+    RightUpperLeg: UpperLeg.R
+    Spine: Spine
