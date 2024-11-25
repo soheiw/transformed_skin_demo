@@ -4915,7 +4915,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -4571605982943762130, guid: e2f4af790fb40ab429d46bd7c4f72117, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e2f4af790fb40ab429d46bd7c4f72117, type: 3}
       propertyPath: m_Name
@@ -5276,9 +5276,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -2004136995773306988, guid: e2f4af790fb40ab429d46bd7c4f72117, type: 3}
       insertIndex: -1
       addedObject: {fileID: 746839748}
-    - targetCorrespondingSourceObject: {fileID: 4174522340748956165, guid: e2f4af790fb40ab429d46bd7c4f72117, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1246157895}
     - targetCorrespondingSourceObject: {fileID: 4174522340748956165, guid: e2f4af790fb40ab429d46bd7c4f72117, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1246157897}
@@ -6565,7 +6562,7 @@ MonoBehaviour:
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
   _oscAddress: /TFS_Slime/Rotation/Hips
   _dataSource: {fileID: 287697653}
-  _propertyName: localEulerAngles
+  _propertyName: eulerAngles
   _keepSending: 1
 --- !u!114 &287697658
 MonoBehaviour:
@@ -6582,7 +6579,7 @@ MonoBehaviour:
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
   _oscAddress: /TFS_Slime/Position/Hips
   _dataSource: {fileID: 287697653}
-  _propertyName: localPosition
+  _propertyName: position
   _keepSending: 1
 --- !u!1 &292890660
 GameObject:
@@ -7878,7 +7875,7 @@ SphereCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Radius: 0.013254704
   m_Center: {x: 0.00449487, y: -0.0015617274, z: 0.00095285056}
@@ -12535,15 +12532,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: e2f4af790fb40ab429d46bd7c4f72117, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.0055551375
+      value: -0.111
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e2f4af790fb40ab429d46bd7c4f72117, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.126
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e2f4af790fb40ab429d46bd7c4f72117, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2.9022322
+      value: 2.12
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e2f4af790fb40ab429d46bd7c4f72117, type: 3}
       propertyPath: m_LocalRotation.w
@@ -12600,7 +12597,7 @@ PrefabInstance:
     - target: {fileID: 5866666021909216657, guid: e2f4af790fb40ab429d46bd7c4f72117, type: 3}
       propertyPath: m_Avatar
       value: 
-      objectReference: {fileID: 9000000, guid: 9fb10015845108941a8d81185f531296, type: 3}
+      objectReference: {fileID: 9000000, guid: e2f4af790fb40ab429d46bd7c4f72117, type: 3}
     - target: {fileID: 5866666021909216657, guid: e2f4af790fb40ab429d46bd7c4f72117, type: 3}
       propertyPath: m_UpdateMode
       value: 1
@@ -14219,7 +14216,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 734338855}
         m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
-        m_MethodName: set_localEulerAngles
+        m_MethodName: set_eulerAngles
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -14273,7 +14270,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 734338855}
         m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
-        m_MethodName: set_localPosition
+        m_MethodName: set_position
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -17230,6 +17227,69 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1809467991}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &922566404
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 294d5312703eac74e8f6cafa3ece8622, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 294d5312703eac74e8f6cafa3ece8622, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 294d5312703eac74e8f6cafa3ece8622, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 294d5312703eac74e8f6cafa3ece8622, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 294d5312703eac74e8f6cafa3ece8622, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 294d5312703eac74e8f6cafa3ece8622, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 294d5312703eac74e8f6cafa3ece8622, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 294d5312703eac74e8f6cafa3ece8622, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 294d5312703eac74e8f6cafa3ece8622, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 294d5312703eac74e8f6cafa3ece8622, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 294d5312703eac74e8f6cafa3ece8622, type: 3}
+      propertyPath: m_Name
+      value: Ch28_nonPBR
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: -3625776899341643024, guid: 294d5312703eac74e8f6cafa3ece8622, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 933108129}
+    - targetCorrespondingSourceObject: {fileID: -3625776899341643024, guid: 294d5312703eac74e8f6cafa3ece8622, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 933108130}
+  m_SourcePrefab: {fileID: 100100000, guid: 294d5312703eac74e8f6cafa3ece8622, type: 3}
 --- !u!1001 &927767671
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17485,6 +17545,124 @@ MonoBehaviour:
       - m_Target: {fileID: 734338834}
         m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
         m_MethodName: set_localPosition
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  _vector4Event:
+    m_PersistentCalls:
+      m_Calls: []
+  _vector2IntEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _vector3IntEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _stringEvent:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!1 &933108127 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -3625776899341643024, guid: 294d5312703eac74e8f6cafa3ece8622, type: 3}
+  m_PrefabInstance: {fileID: 922566404}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &933108128 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -1377736025559008417, guid: 294d5312703eac74e8f6cafa3ece8622, type: 3}
+  m_PrefabInstance: {fileID: 922566404}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &933108129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 933108127}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51f8f979447c54247bcba0d5441e6081, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
+  _oscAddress: /TFSSlime/Position/LFA
+  _dataType: 5
+  _event:
+    m_PersistentCalls:
+      m_Calls: []
+  _intEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _floatEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _vector2Event:
+    m_PersistentCalls:
+      m_Calls: []
+  _vector3Event:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 933108128}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localPosition
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  _vector4Event:
+    m_PersistentCalls:
+      m_Calls: []
+  _vector2IntEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _vector3IntEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _stringEvent:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &933108130
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 933108127}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51f8f979447c54247bcba0d5441e6081, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
+  _oscAddress: /TFSSlime/Rotation/LFA
+  _dataType: 5
+  _event:
+    m_PersistentCalls:
+      m_Calls: []
+  _intEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _floatEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _vector2Event:
+    m_PersistentCalls:
+      m_Calls: []
+  _vector3Event:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 933108128}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: set_localEulerAngles
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -23515,113 +23693,6 @@ MonoBehaviour:
   _stringEvent:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &1246157895
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 287697620}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e9528926505fe24cadbacc32c6349ee, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  boneColliderProperty:
-    boneProperty:
-      recursivery: 0
-    splitProperty:
-      boneWeightType: 0
-      boneWeight2: 50
-      boneWeight3: 33
-      boneWeight4: 25
-      greaterBoneWeight: 1
-      boneTriangleExtent: 1
-    reducerProperty:
-      shapeType: 4
-      fitType: 1
-      meshType: 3
-      maxTriangles: 255
-      sliceMode: 0
-      scale: {x: 1, y: 1, z: 1}
-      scaleElementType: 0
-      minThickness: {x: 0.01, y: 0.01, z: 0.01}
-      minThicknessElementType: 0
-      optimizeRotation:
-        x: 1
-        y: 1
-        z: 1
-      optimizeRotationElementType: 0
-      colliderToChild: 0
-      offset: {x: 0, y: 0, z: 0}
-      thicknessA: {x: 0, y: 0, z: 0}
-      thicknessB: {x: 0, y: 0, z: 0}
-      viewAdvanced: 0
-    colliderProperty:
-      convex: 1
-      isTrigger: 0
-      material: {fileID: 0}
-      isCreateAsset: 0
-    rigidbodyProperty:
-      mass: 1
-      drag: 0
-      angularDrag: 0.05
-      isKinematic: 1
-      useGravity: 0
-      interpolation: 0
-      collisionDetectionMode: 0
-      isCreate: 1
-      viewAdvanced: 0
-    modifyNameEnabled: 0
-  defaultName: mixamorig1:LeftForeArm
-  defaultBoneColliderProperty:
-    boneProperty:
-      recursivery: 0
-    splitProperty:
-      boneWeightType: 0
-      boneWeight2: 50
-      boneWeight3: 33
-      boneWeight4: 25
-      greaterBoneWeight: 1
-      boneTriangleExtent: 1
-    reducerProperty:
-      shapeType: 2
-      fitType: 0
-      meshType: 3
-      maxTriangles: 255
-      sliceMode: 0
-      scale: {x: 1, y: 1, z: 1}
-      scaleElementType: 0
-      minThickness: {x: 0.01, y: 0.01, z: 0.01}
-      minThicknessElementType: 0
-      optimizeRotation:
-        x: 1
-        y: 1
-        z: 1
-      optimizeRotationElementType: 0
-      colliderToChild: 0
-      offset: {x: 0, y: 0, z: 0}
-      thicknessA: {x: 0, y: 0, z: 0}
-      thicknessB: {x: 0, y: 0, z: 0}
-      viewAdvanced: 0
-    colliderProperty:
-      convex: 1
-      isTrigger: 0
-      material: {fileID: 0}
-      isCreateAsset: 0
-    rigidbodyProperty:
-      mass: 1
-      drag: 0
-      angularDrag: 0.05
-      isKinematic: 1
-      useGravity: 0
-      interpolation: 0
-      collisionDetectionMode: 0
-      isCreate: 1
-      viewAdvanced: 0
-    modifyNameEnabled: 0
-  modified: 0
-  modifiedChildren: 0
 --- !u!114 &1246157896
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24461,7 +24532,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _connection: {fileID: 11400000, guid: ff6ccd27e9b61c0489b8eb48c5a7c9d3, type: 2}
-  _oscAddress: /TFSSlime/Rotation/LHP2
+  _oscAddress: /TFSSlime/Rotation/LHP1
   _dataSource: {fileID: 287697601}
   _propertyName: localEulerAngles
   _keepSending: 1
@@ -24827,7 +24898,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1346818014
 Transform:
   m_ObjectHideFlags: 0
@@ -31427,7 +31498,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1809467991
 Transform:
   m_ObjectHideFlags: 0
@@ -37016,3 +37087,4 @@ SceneRoots:
   - {fileID: 287697537}
   - {fileID: 734338751}
   - {fileID: 927767671}
+  - {fileID: 922566404}
